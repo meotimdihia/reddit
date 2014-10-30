@@ -214,8 +214,8 @@ function clone_reddit_plugin_repo {
     clone_reddit_repo $1 reddit/reddit-plugin-$1
 }
 
-clone_reddit_repo reddit reddit/reddit
-clone_reddit_repo i18n reddit/reddit-i18n
+clone_reddit_repo reddit meotimdihia/reddit
+clone_reddit_repo i18n meotimdihia/reddit-i18n
 for plugin in $REDDIT_PLUGINS; do
     clone_reddit_plugin_repo $plugin
 done
